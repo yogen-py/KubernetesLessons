@@ -13,7 +13,7 @@ This controller pattern is the backbone of Kubernetes architecture.
 
 ---
 
-## ☠️Pods — Disposable Compute Units
+## Pods — Disposable Compute Units
 
 A **Pod** is the smallest deployable unit in Kubernetes. It represents a single instance of a running process in your cluster.
 

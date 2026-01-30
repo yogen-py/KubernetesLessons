@@ -115,7 +115,7 @@ kubectl rollout undo deployment/my-app
 
 ---
 
-## 🏷️Labels and Selectors
+## Labels and Selectors
 
 Labels are key-value pairs attached to objects (Metadata). They are the "glue" that links different Kubernetes components together.
 

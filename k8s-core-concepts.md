@@ -49,7 +49,7 @@ kubectl create deployment my-app --image=nginx --replicas=3
 2. Monitor their health.
 3. Replace failed Pods to maintain the replica count.
 
-###The Controller Pattern in Action
+### The Controller Pattern in Action
 
 Controllers continuously perform three steps:
 
@@ -159,7 +159,7 @@ kubectl delete deployment my-app
 *  **Self-healing** — infrastructure should fix itself without manual intervention.
 *  **Rolling updates** — standard for modern production deployments.
 
-###Pro-Tip: Move to Declarative YAML
+### Pro-Tip: Move to Declarative YAML
 
 While `kubectl create` is great for learning, **Production systems use YAML.** **Why?**
 
